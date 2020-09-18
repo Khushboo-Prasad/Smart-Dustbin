@@ -10,5 +10,19 @@ It is a smart object which can be used to make home clean as samll children will
 
 ![Smart_Dustbin](https://user-images.githubusercontent.com/54080068/93635448-e9ab6a00-fa0f-11ea-94d4-c8d247ad19ee.jpg)
 
+## The Working of Smart Dustbin
 
+For object detection, we are using an ultrasonic sensor which emits ultrasonic waves and receives the waves when it comeback by hitting any object.
+Hence whenever anyone comes near the sensor, it detects it and send some signals to aurdino.
+Then the aurdino analyzes the data for further processing.
+In our case, the range of ultrasonic sensor is 0.5 meters.
+On receiving the signals, the servo motor rotates the lid of the dustbin to 90 degree. After 5 seconds, the lid closes automatically.
  
+## Material required
+Aurdino
+Ultrasonic Sensor
+Servo motor
+10 volt battery
+Jumper wires
+Cardboard
+A Dustbin
